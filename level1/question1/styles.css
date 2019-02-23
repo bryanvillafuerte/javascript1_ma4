@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: #1C1C1C;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    margin: 0;
+    color: #F0AF30;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    color: #D67822;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F0F0F0;
+    border: none;
+    color: #D67822;
+    padding: 10px 32px;
+    text-align: center;
+    border: 2px solid #D67822;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: #D67822;
+    color: white;
+}
