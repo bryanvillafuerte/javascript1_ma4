@@ -3,22 +3,27 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     color: #214174;
+    background-color: #EBEBEB;
 }
 
 h1 {
     text-align: center;
     font-size: 32px;
+    border: #214174 solid;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 section {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    margin: auto;
+    width: 95%;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
+    
   }
 
 span {
@@ -27,9 +32,10 @@ span {
     margin: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 10px;
-    background-color: #f1f1f1;
+    background-image: linear-gradient(to bottom right, #F7F7F7, #4FCBFF);
     height: 300px;
     position: relative;
+    font-size: 18px;
 }
 
 ul {
